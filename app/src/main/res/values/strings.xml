@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BeastExample1</string>
+    <string name="why_joined">Why Joined?</string>
+    <string name="major_intro">Major: %1$s</string>
+    <string name="fun_fact_intro">Fun Fact: %1$s</string>
+    <string name="crosee_semester_intro">Joined: %1$s</string>
+    <string name="introduction">Introduction</string>
+    <string name="about_app">This is was made by beast development, and I am learn how to make it and its really fun</string>
+    <string name="follow_us">Follow Us</string>
+
+
+    <string name="what_is_rush">What is Rush?</string>
+    <string name="rush_explain">Rush is a greek word for recruitment</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/fragment_details_brothers_imageLayout"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/fragment_details_brothers_brotherImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <ProgressBar
+            android:id="@+id/fragment_details_brothers_ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fragment_details_brothers_brotherName"
+        android:text="Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_details_brothers_imageLayout"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+        <TextView
+            android:id="@+id/fragment_details_brothers_brotherMajor"
+            android:text="Tsst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_details_brothers_brotherName"
+
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <TextView
+            android:id="@+id/fragment_details_brothersCross"
+            android:text="TEst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_details_brothers_brotherMajor"
+
+            android:layout_centerHorizontal="true"
+
+            />
+
+
+
+
+
+    <TextView
+        android:id="@+id/fragment_details_brothers_funFact"
+        android:text="TEst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_details_brothersCross"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/fragment_details_brothers_WhyJoinHeader"
+        android:text="@string/why_joined"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_details_brothers_funFact"
+        />
+
+
+    <TextView
+        android:id="@+id/fragment_details_brothers_whyJoin"
+        android:text="TEst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_details_brothers_WhyJoinHeader"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        />
+
+</RelativeLayout>

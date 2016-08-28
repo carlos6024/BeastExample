@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="2dp"
+    app:cardElevation="10dp"
+    android:layout_margin="3dp"
+    android:background="#4D757575"
+    >
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:background="@drawable/rush_square_background"
+    >
+
+
+        <LinearLayout
+            android:id="@+id/list_rush_events_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:id="@+id/list_rush_event_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="test"
+                android:layout_weight="0.75"
+                android:textSize="14sp"
+                />
+
+
+            <TextView
+                android:id="@+id/list_rush_event_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="text"
+                android:layout_weight="0.25"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+
+        <View
+            android:id="@+id/list_rush_event_line1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/list_rush_events_name_layout"
+            android:background="#000"
+            />
+
+
+
+        <TextView
+            android:id="@+id/list_rush_event_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_rush_event_line1"
+            android:text="Test"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/list_rush_event_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_rush_event_time"
+            android:text="Test"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ceval.beastexample1">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".infrastructure.BeastApplication">
+        <activity android:name=".activites.SlapshActivity"
+            android:theme="@style/SplashScreenStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity android:name=".activites.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activites.BrotherPagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomDialogActivity"
+            />
+
+
+        <activity android:name=".activites.YouTubePlayerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/YouTubeCustomStyle"/>
+
+
+        <activity android:name=".activites.EventPhotoPagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomDialogActivity"
+            />
+
+        <activity android:name=".activites.MapsActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".activites.CampusMapAcstivity"
+            android:screenOrientation="portrait"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBTltSOBxTlzcxHCk2X2dzHvSgIEtmPI8s"/>
+    </application>
+
+
+
+
+
+</manifest>
